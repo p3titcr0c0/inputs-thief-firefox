@@ -16,6 +16,6 @@ manifest.json
 
 in the beginning.
 
-## Logo
+## Temporary logo
 
 #  ![demo](./logo.png)
