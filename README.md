@@ -15,3 +15,7 @@ manifest.json
 ## Project development
 
 in the beginning.
+
+## Logo
+
+#  ![demo](./logo.png)
