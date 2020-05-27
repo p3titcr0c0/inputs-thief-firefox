@@ -39,17 +39,21 @@ function funct1001(){
 	}
 	const clef1003 = new Date();
 	var clef1004 = [];
-	/*var clef1004 = [clef1003.getDate()+"/"+(clef1003.getMonth()+1)+"/"+(clef1003.getYear()+1900)+" | "+clef1003.getHours()+":"+clef1003.getMinutes()];
-	*/clef1004.push(clef1001, clef1002);
+	var clef1004 = [clef1003.getDate()+"/"+(clef1003.getMonth()+1)+"/"+(clef1003.getYear()+1900)+" | "+clef1003.getHours()+":"+clef1003.getMinutes()];
+	clef1004.push(clef1001, clef1002);
+	console.log(clef1004);
+	/*
 	if (funct1002(clef1004, clef9992) == true){
 		console.log(clef1004);
-	}
+	}*/
+
 }
 
+/*
 function funct1002(clef9998,clef9999){
 	if (clef9998[2] != clef9999[2]){
 		return true;
 	} else {
 		return false;
 	}
-}
+}*/
