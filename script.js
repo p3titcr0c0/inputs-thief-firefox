@@ -15,7 +15,8 @@
 /*                                                           */
 /* clef9991 = compteur de boucle (temporaire)                */
 /* clef9992 = ancienne variable clef1004                     */
-/* clef9993 =                                                */
+/* clef9993 = variable tampon funct1002                      */
+/* clef9994 =                                                */
 /*                                                           */
 /*--------------fonction 1001->1010 = fonctions--------------*/
 /*                                                           */
@@ -26,9 +27,9 @@
 
 document.addEventListener('click', funct1001);
 document.addEventListener("keydown", function (event){if (event.keyCode == 13){funct1001()}});
+var clef9992 = [null, null, null];
 
 function funct1001(){
-	var clef9992 = [null, null, null];
 	var clef1000 = Array.prototype.slice.call(document.getElementsByTagName('input'),0);
 	var clef1001 = document.location.href;
 	var clef1002 = [];
@@ -41,19 +42,29 @@ function funct1001(){
 	var clef1004 = [];
 	var clef1004 = [clef1003.getDate()+"/"+(clef1003.getMonth()+1)+"/"+(clef1003.getYear()+1900)+" | "+clef1003.getHours()+":"+clef1003.getMinutes()];
 	clef1004.push(clef1001, clef1002);
-	console.log(clef1004);
-	/*
-	if (funct1002(clef1004, clef9992) == true){
-		console.log(clef1004);
-	}*/
 
+	if (funct1002(clef1004, clef9992) == false){
+		console.log(clef1004);
+		clef9992 = clef1004;
+	}
 }
 
+function funct1002(clef1004, clef9992){
+	clef1004.toString();
+	clef9992.toString();
+	let clef9993 = (clef1004.toString() === clef9992.toString());
+	return clef9993;
+}
 /*
-function funct1002(clef9998,clef9999){
-	if (clef9998[2] != clef9999[2]){
-		return true;
-	} else {
-		return false;
-	}
+class Mydata(){
+	constructor(date, heure, site, inputs) {
+    this.date = date;
+    this.heure = heure;
+    this.site = site;
+    this.inputs = inputs;
+  }
+
+  decrire() {
+    return `Le ${this.date} a ${this.heure}, le site :${this.site} a était visité et les values des inputs étaients les suivant ${this.inputs}`;
+  }
 }*/
