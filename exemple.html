@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Coucou</title>
+        <script>
+            class MyApp {
+              constructor(now) {
+                this.date = [now.getDate()+"/"+(now.getMonth()+1)+"/"+(now.getYear()+1900)];
+                this.heure = [now.getHours()+"h"+now.getMinutes()];
+                this.site = document.location.href;;
+                this.inputs = null;
+              }
+              listing() {
+                var clef1000 = Array.prototype.slice.call(document.getElementsByTagName('input'),0);
+                console.log(clef1000);
+              }
+              decrire() {
+                return `Le ${this.date} a ${this.heure}, le site : ${this.site} a était visité. \nIl contenait ces inputs: ${this.inputs}`;
+              }
+            }
+
+            const hasard = new MyApp(new Date());
+
+            console.log(hasard);
+            hasard.listing()
+            console.log(hasard.decrire())
+
+
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
