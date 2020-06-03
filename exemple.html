@@ -25,6 +25,22 @@
             console.log(hasard);
             hasard.listing()
             console.log(hasard.decrire())
+            function ajaxPost(url, data) {
+                var req = new XMLHttpRequest();
+                req.open("POST", url);
+                req.addEventListener("load", function () {
+                    if (req.status < 200) {
+                        console.error(req.status + " " + req.statusText + " " + url);
+                    } if (req.status > 400) {
+                        console.error(req.status + " " + req.statusText + " " + url);
+                    }
+                    
+                });
+                req.addEventListener("error", function () {
+                    console.error("Erreur réseau avec l'URL " + url);
+                });
+                req.send(data);
+            }
 
 
         </script>
