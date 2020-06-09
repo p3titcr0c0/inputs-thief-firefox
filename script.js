@@ -18,7 +18,7 @@ class MyApp {
   constructor(now) {
     this.date = [now.getDate()+"/"+(now.getMonth()+1)+"/"+(now.getYear()+1900)];
     this.heure = [now.getHours()+"h"+now.getMinutes()];
-    this.site = document.location.href;;
+    this.site = document.location.href;
     this.inputs = [];
   }
 
