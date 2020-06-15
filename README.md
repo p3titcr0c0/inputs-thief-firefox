@@ -5,8 +5,11 @@
 * The firefox web browser
 * A SQL database hosted online
 * A php script hosted online
+(But it can work on a local web server: XAMPP or WAMP)
 
 ## 2 - Installation (The schema is as follows)
+
+* Clone the repositorie : https://github.com/p3titcr0c0/inputs-thief-firefox.git
 
 * Opening the about:debugging page with Firefox
 
