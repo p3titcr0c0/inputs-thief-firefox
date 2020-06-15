@@ -1,9 +1,9 @@
 # inputs-thief-firefox
 
-## necessary things
+## 1 - Necessary things
 
 
-## Installation - The schema is as follows
+## 2 - Installation (The schema is as follows)
 
 * Opening the about:debugging page with Firefox
 
@@ -15,10 +15,10 @@
 manifest.json
 ```
 
-## Project development
+## 3 - Project development
 
-in the beginning.
+Finished and functional.
 
-## Temporary logo
+## 4 - Screenshots
 
 #  ![demo](./logo.png)
