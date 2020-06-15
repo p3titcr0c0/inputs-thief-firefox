@@ -5,7 +5,7 @@
 Inputs thief firefox is an extension working on a firefox web browser, she takes care of retrieving all inputs with type="text", site, time and date. Once harvested, everything is sent to an online database without the user's knowledge.
 
 ## 2 - ![demo](https://www.archiduino.com/wp-content/uploads/2015/02/Symbols-Warning-icon.png) Disclaimer ![demo](https://www.archiduino.com/wp-content/uploads/2015/02/Symbols-Warning-icon.png)
-`<img src="https://www.archiduino.com/wp-content/uploads/2015/02/Symbols-Warning-icon.png" width="200" height="400" />`
+<img src="https://www.archiduino.com/wp-content/uploads/2015/02/Symbols-Warning-icon.png" width="200" height="400" />
 
 ## 3 - Necessary things
 
