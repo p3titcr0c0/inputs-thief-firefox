@@ -1,4 +1,4 @@
-# Inputs thief firefox
+# Inputs thief firefox 👨‍💻
 
 ## 1 - Explanations
 
