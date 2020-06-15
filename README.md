@@ -62,4 +62,8 @@ Finished and functional, 15/06/2020.
 
 ## 6 - Screenshots
 
+* Extension popup page:
+#  ![demo](./screens/popup_censored.jpg)
+
+* Example of information received on the database managed under phpMyAdmin:
 #  ![demo](./logo.png)
