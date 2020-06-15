@@ -1,4 +1,4 @@
-# password-thief-firefox
+# inputs-thief-firefox
 
 ## Installation - The schema is as follows
 
