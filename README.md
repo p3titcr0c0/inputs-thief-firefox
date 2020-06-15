@@ -30,7 +30,8 @@ Vous serez également le seul responsable de vos actions/utilisations d'un tel s
 * The firefox web browser
 * A SQL database hosted online
 * A php script hosted online
-(But it can work on a local web server: XAMPP or WAMP)
+
+> (But it can work on a local web server: XAMPP or WAMP)
 
 ## 4 - Installation (The schema is as follows)
 
