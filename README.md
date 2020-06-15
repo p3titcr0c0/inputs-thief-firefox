@@ -20,6 +20,8 @@
 manifest.json
 ```
 
+* Everything works, you will receive the inputs, the date and time and the site on your database.
+
 ## 3 - Project development
 
 Finished and functional, 15/06/2020.
