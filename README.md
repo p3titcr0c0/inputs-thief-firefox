@@ -66,4 +66,4 @@ Finished and functional, 15/06/2020.
 #  ![demo](./screens/popup_censored.jpg)
 
 * Example of information received on the database managed under phpMyAdmin:
-#  ![demo](./logo.png)
+#  ![demo](./screens/bdd_censored.jpg)
