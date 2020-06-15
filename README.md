@@ -14,11 +14,13 @@ You will also be solely responsible for your actions and your uses of what is sh
 
 ## 2 - <img src="https://www.reed-sensor.com/wp-content/uploads/icon_disclaimer.jpg" width="25" height="25"> Disclaimer (Français - FR) <img src="https://images.emojiterra.com/google/android-10/128px/1f1eb-1f1f7.png" width="20" height="20"> <img src="https://www.reed-sensor.com/wp-content/uploads/icon_disclaimer.jpg" width="25" height="25">
 
-This extension was not created for the purpose of stealing private information from anyone, this was created for educational and preventative purposes ONLY. I do not endorse this kind of action.
+<ins>En visitant ce projet, en participant et en appliquant ce qui est présenté, vous comprenez et acceptez que :</in>
 
-Using or integrating my work in anything is not without risk for you, I am not responsible for any misappropriation.
+Cette extension n'a pas été créée dans le but de voler des informations privées à quiconque, elle a été créée UNIQUEMENT à des fins éducatives et préventives. Je ne cautionne en rien ce genre d'action.
 
-You will also be solely responsible for your actions and your uses of what is shown on this project. Neither the author nor his host can be held responsible for your fraudulent actions.
+Utiliser ou intégrer mon travail dans quoi que ce soit n'est pas sans risque pour vous, je ne suis pas responsable de tout détournement.
+
+Vous serez également le seul responsable de vos actions/utilisations d'un tel système. Ni l'auteur, ni votre hébergeur ne peuvent être tenus responsables de vos actes frauduleux.
 
 
 ## 3 - Necessary things
