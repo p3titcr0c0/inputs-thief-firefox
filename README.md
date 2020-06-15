@@ -4,10 +4,8 @@
 
 Inputs thief firefox is an extension working on a firefox web browser, she takes care of retrieving all inputs with type="text", site, time and date. Once harvested, everything is sent to an online database without the user's knowledge.
 
-## 2 - Disclaimer 
-
-
-#  ![demo](https://images.squarespace-cdn.com/content/v1/5638f556e4b0fd14a38bf4c6/1448895329616-L2065BLB3T3NY89P45XW/ke17ZwdGBToddI8pDm48kLi7PWKhIZwR6U0XbfuvpAx7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmS3R1u-H-LFkUZVSRUKY3IlmvI26ZC-62P24WJY7GOquE-R9icnoHS3vbcbkk6gkG/disclaimer.gif?format=100w)
+## 2 - # ![demo](https://images.squarespace-cdn.com/content/v1/5638f556e4b0fd14a38bf4c6/1448895329616-L2065BLB3T3NY89P45XW/ke17ZwdGBToddI8pDm48kLi7PWKhIZwR6U0XbfuvpAx7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmS3R1u-H-LFkUZVSRUKY3IlmvI26ZC-62P24WJY7GOquE-R9icnoHS3vbcbkk6gkG/disclaimer.gif?format=40w) Disclaimer 
+![demo](https://images.squarespace-cdn.com/content/v1/5638f556e4b0fd14a38bf4c6/1448895329616-L2065BLB3T3NY89P45XW/ke17ZwdGBToddI8pDm48kLi7PWKhIZwR6U0XbfuvpAx7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmS3R1u-H-LFkUZVSRUKY3IlmvI26ZC-62P24WJY7GOquE-R9icnoHS3vbcbkk6gkG/disclaimer.gif?format=40w)
 
 
 ## 3 - Necessary things
