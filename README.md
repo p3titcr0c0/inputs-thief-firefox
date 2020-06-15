@@ -6,6 +6,8 @@ Inputs thief firefox is an extension working on a firefox web browser, she takes
 
 ## 2 - <img src="https://www.reed-sensor.com/wp-content/uploads/icon_disclaimer.jpg" width="25" height="25"> Disclaimer (English - EN) <img src="https://images.emojiterra.com/google/android-10/128px/1f1ec-1f1e7.png" width="20" height="20"> <img src="https://www.reed-sensor.com/wp-content/uploads/icon_disclaimer.jpg" width="25" height="25">
 
+<ins>By visiting this project, participating and applying what is presented, you understand and expect that:</ins>
+
 This extension was not created for the purpose of stealing private information from anyone, this was created for educational and preventative purposes ONLY. I do not endorse this kind of action.
 
 Using or integrating my work in anything is not without risk for you, I am not responsible for any misappropriation.
