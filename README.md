@@ -2,6 +2,9 @@
 
 ## 1 - Necessary things
 
+* The firefox web browser
+* A SQL database hosted online
+* A php script hosted online
 
 ## 2 - Installation (The schema is as follows)
 
@@ -17,7 +20,7 @@ manifest.json
 
 ## 3 - Project development
 
-Finished and functional.
+Finished and functional
 
 ## 4 - Screenshots
 
