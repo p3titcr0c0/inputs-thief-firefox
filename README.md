@@ -6,6 +6,8 @@ Inputs thief firefox is an extension working on a firefox web browser, she takes
 
 ## 2 - Disclaimer ⚠️
 
+<img src="https://www.reed-sensor.com/wp-content/uploads/icon_disclaimer.jpg">
+
 ## 3 - Necessary things
 
 * The firefox web browser
