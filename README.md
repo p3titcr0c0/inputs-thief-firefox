@@ -4,7 +4,7 @@
 
 Inputs thief firefox is an extension working on a firefox web browser, she takes care of retrieving all inputs with type="text", site, time and date. Once harvested, everything is sent to an online database without the user's knowledge.
 
-## 2 - <img src="https://www.reed-sensor.com/wp-content/uploads/icon_disclaimer.jpg" width="20" height="20"> Disclaimer <img src="https://www.reed-sensor.com/wp-content/uploads/icon_disclaimer.jpg" width="20" height="20">
+## 2 - <img src="https://www.reed-sensor.com/wp-content/uploads/icon_disclaimer.jpg" width="25" height="25"> Disclaimer <img src="https://www.reed-sensor.com/wp-content/uploads/icon_disclaimer.jpg" width="25" height="25">
 
 
 
