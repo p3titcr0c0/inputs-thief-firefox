@@ -22,7 +22,7 @@ manifest.json
 
 ## 3 - Project development
 
-Finished and functional
+Finished and functional, 15/06/2020.
 
 ## 4 - Screenshots
 
