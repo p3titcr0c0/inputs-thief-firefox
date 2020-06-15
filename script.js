@@ -10,7 +10,6 @@ function ajaxPost(url, data) {
 
 function prototypeData(data) {
 	var temp = "a="+window.btoa(data[0])+"&b="+window.btoa(data[1])+"&c="+window.btoa(data[2]).replace(/&/gi, "†")+"&d="+window.btoa(data[3]);
-	console.log(temp);
 	return temp;
 }
 
