@@ -1,5 +1,8 @@
 # inputs-thief-firefox
 
+## necessary things
+
+
 ## Installation - The schema is as follows
 
 * Opening the about:debugging page with Firefox
